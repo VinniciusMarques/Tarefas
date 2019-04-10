@@ -2,11 +2,16 @@
 *{
 	margin: 0; 
 	padding: 0;
+	
+}
+body{
+	background-image: url("../fundo.png");
 }
 .main{
 	display: inline-block;
 	clear: both;
 	width: 100%;
+	margin-top: 5%;
 }
 .todo{
 	width: 20%;
@@ -22,7 +27,22 @@
 	background-color: #F00;
 	color: #FFF;
 }
-.progress{
+.changeDiv{
+	width: 50%;
+	float: left;
+	margin-top: 5%;
+	
+}
+.change{
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-left: 10%;
+	background-color: #777;
+	border: 1px solid black;
+	color: #FFF;
+}
+.progresss{
 	width: 20%;
 	margin-left: 5%;
 	margin-right: 5%;
@@ -30,10 +50,10 @@
 	float: left;
 	height: auto !important;
 }
-.progress .box-header{
+.progresss .box-header{
 	background-color: #FF0;
 }
-.progress .box-footer:hover{
+.progresss .box-footer:hover{
 	background-color: #FF0;
 }
 .done{
